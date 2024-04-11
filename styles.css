@@ -1,0 +1,302 @@
+.top_wrapper{
+    background-color:blueviolet;
+    height: 50px;
+}
+.left {
+padding-top:15px;
+margin-left: 80px;
+}
+.left a{
+text-decoration: none;
+color: white;
+}
+.right{
+    float: right;
+    margin-right: 80px;
+   
+}
+.right a img{
+    height:20px;
+    width: 20px;
+    
+}
+
+
+form {
+   background-color: wheat;
+  
+}
+form input{
+border: none;
+outline: none;
+background: transparent;
+
+}
+form i{
+    color:lightslategray;
+}
+#wrap{
+    animation:blink 2s linear infinite;
+}
+@keyframes blink{
+    60%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0.8;
+    }
+}
+
+.run{
+    width: 100%;
+    background-color: tomato;
+    height: 25px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.run div{
+       
+    animation: animate 20s linear infinite;
+   
+}
+@keyframes animate{
+    100%{
+        transform: translate(100%,0);
+    }
+    }
+
+.flex-container {
+    display: flex;
+    margin-left: 60px;
+    color: white;
+    align-items: center;
+   
+
+}
+
+.flex-container a{
+    text-decoration: none;
+    align-items: center;
+    padding-inline: 15px;
+    color: black;
+    
+}
+    
+.flex-container img{
+    height: auto;
+    width: 80px;
+
+}
+
+.contain{
+ padding-inline-start: 110px;
+    
+}
+
+ .fa-magnifying-glass{
+    align-items: center;
+}
+.buttons button{
+   
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+  
+
+}
+.buttons {
+    padding-inline: 20px;
+   
+}
+.flex-container .buttons{
+    align-items: center;
+}
+
+.slider{
+    height: 400px;
+    position: relative;
+    display: grid;
+    place-items:center;
+    width:100%;
+    overflow: hidden;
+  
+}
+.slider-track{
+    display: flex;
+    /* width: calc(300px * 16); */
+    animation: scroll 90s linear infinite;
+}
+.slide{
+    height:300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline:10px;
+    perspective: 13px;
+   
+}
+.slide img{
+    height: 400px;
+    width:350px;
+    transition: transform 1s;
+}
+@keyframes scroll {
+  
+    100%{
+        transform: translateX(calc(-250px * 16));
+    }
+    
+}
+.slide img:hover{
+    transform: translateZ(1px)
+}
+.slider-track:hover{
+    animation-play-state: paused;
+}
+.nav ul  {
+    display: flex;
+    list-style-type: none;
+}
+.nav ul li{
+padding-inline-start: 30px;
+
+}
+.nav ul li a{
+    
+    text-decoration: none;
+    color:blueviolet;
+}
+.nav{
+    padding-top: 10px;
+}
+.drop {
+
+    display: none;
+    left: 0;
+
+  
+}.drop ul {
+    flex-direction:column;
+     display:inline-flex;
+     list-style-type: none;
+}
+.nav ul .drop1:hover .drop{
+    display:block;
+     position: absolute;
+    background-color:white;
+    z-index: 80;
+}
+.bottom-text {
+    line-height: 15px;
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+
+.carousel{
+width: 100%;
+margin-top: 30px;
+cursor: pointer;
+
+}
+.carousel img{
+    height: 350px;
+    width: 400px;
+}
+.carousel{
+display: flex;
+overflow-x: scroll;
+/* scroll-snap-type:x mandatory; */
+}
+.carousel img{
+    padding-inline-start: 20px;
+    /* transition: transform 5s; */
+}
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+#leftBtn,#rightBtn {
+    height:40px;
+    width:40px;
+    cursor: pointer;
+    margin: 10px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div{
+    line-height: 10px;
+   margin-left: 50px;
+}
+#photo {
+    display: flex;
+    height: 400px;
+    /* width: 100%; */
+    /* margin-left: 35px; */
+   justify-content: space-around;
+
+   
+}
+#photo img{
+  
+    /* align-content: center; */
+    /* padding: 5px; */
+ 
+}
+.ramjan{
+   margin-top: 30px;
+   text-align: center;
+   
+}
+.ramjan img{
+    width: 1000px;
+}
+.luxe{
+    margin-top: 20px;
+    height: 600px;
+    background-color:bisque;
+    cursor: pointer;
+    text-align: center;
+}
+.dyson{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+   
+}
+.dyson img{
+    height: 90px;
+    width: 120px;
+}
+.spring {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.spring img{
+    padding-inline-start: 10px;
+    border-radius: 20px;
+}
+.Btn {
+text-align: center;
+margin-top: 20px;
+}
+.Btn button{
+    background-color: rgb(148, 125, 125);
+color: aliceblue;
+outline: none;
+border:none;
+border-radius: 5px;
+}
+.Btn button i{
+   justify-content: center;
+   padding-inline-start: 5px;
+}

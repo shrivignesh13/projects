@@ -91,7 +91,9 @@ form i{
 }
 
 .contain{
- padding-inline-start: 110px;
+margin-left: auto;
+align-items: center;
+
     
 }
 

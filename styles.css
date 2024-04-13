@@ -54,7 +54,11 @@ form i{
     color: white;
     white-space: nowrap;
     overflow: hidden;
+   
 
+}
+.run div:hover{
+    animation-play-state: paused;
 }
 .run div{
        
@@ -91,9 +95,10 @@ form i{
 }
 
 .contain{
+    display: flex;
 margin-left: auto;
 align-items: center;
-
+margin-right: 60px;
     
 }
 
@@ -104,8 +109,9 @@ align-items: center;
    
     background-color: tomato;
     color: white;
-    border-radius: 5px;
+    border-radius: 4px;
     height: 30px;
+    width: 60px;
     border: none;
   
 
@@ -246,12 +252,7 @@ overflow-x: scroll;
 
    
 }
-#photo img{
-  
-    /* align-content: center; */
-    /* padding: 5px; */
- 
-}
+
 .ramjan{
    margin-top: 30px;
    text-align: center;
@@ -266,11 +267,13 @@ overflow-x: scroll;
     background-color:bisque;
     cursor: pointer;
     text-align: center;
+    border-radius: 50px;
 }
 .dyson{
     display: flex;
     justify-content: space-around;
     cursor: pointer;
+    margin-top: 15px;
    
 }
 .dyson img{
@@ -301,4 +304,27 @@ border-radius: 5px;
 .Btn button i{
    justify-content: center;
    padding-inline-start: 5px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.cell{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 25px;
+ padding-inline: 20px;
+
+}
+.cell img{
+object-fit: cover;
+overflow: hidden;
+
+}
+#caro{
+    margin: 25px;
 }

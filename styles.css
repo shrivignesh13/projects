@@ -23,17 +23,23 @@ color: white;
 
 
 form {
+   align-items: center;
    background-color: wheat;
+   border-radius:3px;
   
 }
 form input{
 border: none;
 outline: none;
 background: transparent;
+width: 130px;
+
+
 
 }
 form i{
     color:lightslategray;
+    cursor: pointer;
 }
 #wrap{
     animation:blink 2s linear infinite;
@@ -95,7 +101,7 @@ form i{
 }
 
 .contain{
-    display: flex;
+display: flex;
 margin-left: auto;
 align-items: center;
 margin-right: 60px;
@@ -246,8 +252,6 @@ overflow-x: scroll;
 #photo {
     display: flex;
     height: 400px;
-    /* width: 100%; */
-    /* margin-left: 35px; */
    justify-content: space-around;
 
    
@@ -263,7 +267,7 @@ overflow-x: scroll;
 }
 .luxe{
     margin-top: 20px;
-    height: 600px;
+    height: 650px;
     background-color:bisque;
     cursor: pointer;
     text-align: center;
@@ -292,7 +296,7 @@ overflow-x: scroll;
 }
 .Btn {
 text-align: center;
-margin-top: 20px;
+margin-top: 30px;
 }
 .Btn button{
     background-color: rgb(148, 125, 125);

@@ -22,13 +22,14 @@ color: white;
 }
 
 
-form {
+
+.flex-container form {
    align-items: center;
    background-color: wheat;
    border-radius:3px;
   
 }
-form input{
+.flex-container form input{
 border: none;
 outline: none;
 background: transparent;
@@ -37,7 +38,7 @@ width: 130px;
 
 
 }
-form i{
+.flex-container form i{
     color:lightslategray;
     cursor: pointer;
 }
@@ -137,6 +138,7 @@ margin-right: 60px;
     place-items:center;
     width:100%;
     overflow: hidden;
+    /* margin-top: 220px; */
   
 }
 .slider-track{
@@ -202,7 +204,8 @@ padding-inline-start: 30px;
     display:block;
      position: absolute;
     background-color:white;
-    z-index: 80;
+    z-index: 1;
+ 
 }
 .bottom-text {
     line-height: 15px;
@@ -253,17 +256,23 @@ overflow-x: scroll;
     display: flex;
     height: 400px;
    justify-content: space-around;
-
+overflow: hidden;
    
 }
 
 .ramjan{
-   margin-top: 30px;
-   text-align: center;
+
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
    
 }
 .ramjan img{
-    width: 1000px;
+ margin: 50px;
+ width: 1500px;
+
 }
 .luxe{
     margin-top: 20px;
@@ -331,4 +340,92 @@ overflow: hidden;
 }
 #caro{
     margin: 25px;
+}
+.alertbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    height: 80px;
+    justify-content: center;
+    align-content: center;
+    margin-top:35px;
+
+}
+.alertbox div{
+    color:tomato;
+    font-family: "Sedan", serif;
+ font-weight: 600;
+}
+.inbox
+{
+    background-color:rgb(58,64,71);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: baseline;
+ margin-top: 25px;
+ 
+}
+.discounts img {
+   height: 35px;
+   width: 35px;
+  }
+  .formated{
+
+    width: 240px;
+    height: auto;
+ 
+  }
+  .discounts{
+    align-content: center;
+  }
+  .formated input {
+
+    background-color:  rgb(58,64,71);
+    border-collapse: collapse;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    caret-color: white;
+
+  }
+  .formated  ::placeholder{
+   color: white;
+   font-weight: 400;
+   
+  }
+  .inbox span{
+    color: white;
+  }
+  .inbox button{
+    background-color: rgb(58,64,71);
+    color: white;
+    height: 35px;
+    width: 45px;
+    border: 1px solid white;
+}
+.mobile-app img{
+height:35px;
+width: 35px;
+}
+.mobile-app div img{
+    height:40px;
+    width: 150px;
+    }
+.mobile-app div {
+    display: flex; 
+justify-content: center;
+   
+}
+.mobile-app div img{
+ margin: 5px;
+}
+
+.callus {
+    display: flex;
+    line-height: 5px;
+}
+.callus div{
+    padding-inline: 5px;
 }

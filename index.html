@@ -15,7 +15,9 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
        <style>
 
             *{
@@ -28,6 +30,7 @@
 
 </head>
 <body>
+    
     <header>
     <div class="top_wrapper">
             <div class="left">
@@ -132,7 +135,11 @@
                 </ul>
 
             </div>
+        </div>
+        <div data-aos="fade-up"
+        data-aos-duration="3000">
             <div class="slider">
+              
                 <div class="slider-track">
                     <div class="slide">
                         <img src="https://images-static.nykaa.com/uploads/bd5e53e7-9bfa-4806-a0a7-ca0e1b7d1caa.jpg?tr=cm-pad_resize" alt="">
@@ -188,12 +195,13 @@
                     </div>
                 </div>
             </div>
-           
-
+        </div>
+       
             <div class="bottom-text">
                 <h5>Explore Our Top Brands</h5>
                 <p><b>A-Lister label to obess over</b></p>
             </div>
+            <div data-aos="zoom-in-up" data-aos-duration="3000">
             <div class="wrapper" >
                 <i class="fa-solid fa-chevron-left" id="leftBtn"></i>
                   <div class="carousel">
@@ -208,20 +216,26 @@
                             
                             <i class="fa-solid fa-chevron-right" id="rightBtn"></i>
             </div>
+        </div>
                 <div class="div">
                 <h5>Focus On</h5>
                 <p>Today's standout labels</p>
                 </div>
+                <div data-aos="fade-up" data-aos-duration="3000">
                    <div id="photo">
                     <img src="https://images-static.nykaa.com/creatives/d141fe81-df9f-4173-af31-aa49659b986e/default.jpg?tr=cm-pad_resize,">
                     <img src="https://images-static.nykaa.com/creatives/3a1e978a-ea47-412a-be76-8796f76dabab/default.jpg?tr=cm-pad_resize,">
                     <img src="https://images-static.nykaa.com/creatives/a2ced4b9-2047-439a-b4c1-2d86f3c350fe/default.jpg?tr=cm-pad_resize," alt="">
-                    <img src="https://images-static.nykaa.com/creatives/a8f1df6d-a26b-4885-bb38-15af3cf28066/default.jpg?tr=cm-pad_resize," alt="">
+                    <!-- <img src="https://images-static.nykaa.com/creatives/a8f1df6d-a26b-4885-bb38-15af3cf28066/default.jpg?tr=cm-pad_resize," alt=""> -->
                     
                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000">
                     <div class="ramjan">
                         <img src="https://images-static.nykaa.com/uploads/06e8f3dc-2b80-45a8-a157-639e07a27ae4.jpg?tr=cm-pad_resize," alt="">
                     </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="3000" style="overflow: hidden;">
                     <div class="luxe">
                         <img src="https://images-static.nykaa.com/uploads/d95e64c7-3a88-4ad7-a501-25c004d8cf3c.jpg?tr=cm-pad_resize,w-1300" alt="">
                         <div class="dyson">
@@ -244,6 +258,8 @@
                         <button type="submit">View All Luxury<i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                     </div>
+                </div>
+                    <div data-aos="zoom-in" data-aos-duration="3000">
                     <div id="caro" >
                         <div class="main-carousel" >
                             <div class="cell"><img src="https://images-static.nykaa.com/uploads/62a01a9a-36a6-41b5-97b7-7ec819a3c6d6.jpg?tr=cm-pad_resize," alt=""></div>
@@ -260,6 +276,41 @@
                             
                         </div>
                     </div>
+                    </div>
+                    <div class="alertbox">
+                        <div>Please be carefull of Fraudulent calls & sms! Nykaa never call you with offers pertaining to free gifts or prizes or ask for payments through links.</div>
+                    </div>
+
+                    <div class="inbox">
+                        <div class="discounts">
+                            <img src="https://img.icons8.com/pastel-glyph/64/FFFFFF/new-post--v1.png" alt="new-post--v1"/><span>Get Your Special discount on your inbox</span>
+                            <form class="formated">
+                            <input type="text" placeholder="Your Email">
+                            <button>SEND</button>
+                            </form>
+                        </div>
+                        <div class="mobile-app">
+                        
+                                <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/iphone14-pro.png" alt="iphone14-pro"/><a>EXPERIENCE THE NYKAA MOBILE APP</a>  
+                               <div>
+                                <img src="Images/images1.png" alt="">
+                            </div>
+                                <div>
+                                <img src="Images/images2.png" alt="">
+                            </div>
+                            </div>
+                        <div class="callus">
+                            <div> 
+                                <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                            </div>
+                            <div>
+                           <p>FOR ANY HELP,YOU MAY CALL US AT</p>
+                            <p>1800-267-4444</p>
+                            <p>(Monday to Saturday, 8AM to 10PM and Sunday, 10AM to 7PM)</p>
+                        </div>
+                    </div>
+                    </div>
+                    
                     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
                           <script type="text/javascript">
                          $('.main-carousel').flickity({
@@ -272,5 +323,8 @@
                      
                          });
                           </script>
+                           <script>
+                            AOS.init();
+                        </script>
 </body>
 </html>

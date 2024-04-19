@@ -1,27 +1,4 @@
 
-// const carousel=document.querySelector(".carousel")
-// arrowIcons=document.querySelectorAll(".wrap i")
-// let isDragStart=false ,prevPageX,prevScrollLeft;
-// arrowIcons.forEach(icon=>{
-// icon.addEventListener("click",()=>{
-
-// })
-// });
-// const DragStart=(e)=>{
-//   isDragStart=true;
-//   prevPageX=e.pageX;
-//   prevScrollLeft=carousel.scrollLeft;
-// }
-// const dragging = (e)=>{
-//   if(!isDragStart) return;
-//   e.preventDeafult()
-//   let positionDiff=e.pageX-prevPageX;
-//   carousel.scrollLeft= prevScrollLeft-positionDiff;
-// }
-// carousel.addEventListener("mousedown", DragStart)
-// carousel.addEventListener("mousemove",dragging)
-// carousel.addEventListener("mouseup",Dragstop)
-
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");

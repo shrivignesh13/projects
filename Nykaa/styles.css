@@ -359,12 +359,15 @@ overflow: hidden;
 .inbox
 {
     background-color:rgb(58,64,71);
-    height: 200px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     color: white;
-    align-items: baseline;
- margin-top: 25px;
+    margin-top: 25px;
+    align-items: first baseline;
+    padding: 50px;
+ 
+
  
 }
 .discounts img {
@@ -405,10 +408,7 @@ overflow: hidden;
     width: 45px;
     border: 1px solid white;
 }
-.mobile-app img{
-height:35px;
-width: 35px;
-}
+
 .mobile-app div img{
     height:40px;
     width: 150px;
@@ -419,7 +419,8 @@ justify-content: center;
    
 }
 .mobile-app div img{
- margin: 5px;
+ margin: 10px;
+ cursor: pointer;
 }
 
 .callus {
